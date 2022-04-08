@@ -1,0 +1,6 @@
+Nome: felipe carneiro
+idade: 35 anos
+cidade: rio de janeiro
+meu hobby é jogar futebol nas horas vagas, sou natural do rio de janeiro.
+trabalhei como técnico de impressora 10 anos.
+hoje quero me recolocar no mercado de trabalho que é na area de desenvolvimento de software.
