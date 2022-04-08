@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Instagram, facebook e whatsapp
+=======
+Instagram, facebook e whatsapp
+>>>>>>> c81c6148e82fef20b0075e8b0f53a9d6c2482f1e
