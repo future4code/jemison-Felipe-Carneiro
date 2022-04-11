@@ -1,0 +1,2 @@
+# Aprendizados da semana
+Semana muito produtiva para mim. Essa semana eu aprendi a mexer no **git**, **github** e realmente é bem interessante e estressante ao mesmo tempo (rsssss). tirei muitas duvidas com o **Israel** ( monitor), **Fabio** e ****Guilherme** (amigos da turma Jemison). Nos ajudamos nas duvidas dos exercícios e isso foi muito bom para trabalharmos em equipe.
