@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 // imprimindo no console
 console.log("Olá mundo!")
@@ -42,6 +43,8 @@ const idadeEmStringConversao = idadeEmNumeros.toString();
 console.log("Em numero: ", idadeEmNumeros);
 console.log("Em string:", idadeEmStringConversao);
 =======
+=======
+>>>>>>> 164a0c98283c961b390cbb37e832e41acdcc7b79
 // Exercícios de interpretação de código
 
 // Exercício 1 : Vai aparecer no console ( 10 e 5 )
@@ -126,4 +129,7 @@ console.log("O primeiro número multiplicado pelo segundo número resulta em:",m
 
 
 
+<<<<<<< HEAD
+>>>>>>> 164a0c98283c961b390cbb37e832e41acdcc7b79
+=======
 >>>>>>> 164a0c98283c961b390cbb37e832e41acdcc7b79
