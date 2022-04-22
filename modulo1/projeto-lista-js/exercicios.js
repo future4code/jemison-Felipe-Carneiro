@@ -120,16 +120,22 @@ return (array[array.length -1])
 function trocaPrimeiroEUltimo(array) {
   // implemente sua lógica aqui
 
+  let pri1 = array[0]
+  let pri2 = array[array.length - 1]
+  let pri3 = pri1
+  array[0] = pri2
+  array[array.length - 1] = pri3
 
-
-
+  return array
 
 }
 
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   // implemente sua lógica aqui
-
+let pri1 = string1.toUpperCase()
+let pri2 = string2.toUpperCase()
+return (pri1 === pri2)
 }
 
 // EXERCÍCIO 13
