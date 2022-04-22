@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 289f80b72c3a9a347f33cd5c5a59ccabaad7cb86
 
 // imprimindo no console
 console.log("Olá mundo!")
@@ -17,6 +21,7 @@ let idadeEmString = "Vinte e cinco";
 console.log(idadeEmString);
 
 console.log("Tenho", idadeEmString, "anos de idade. Nasci em", anoDeNascimento, "sadlkjslkdjsdkljkl");
+<<<<<<< HEAD
 console.log("Novo parágrafo");
 
 // Exercício 1
@@ -48,6 +53,9 @@ console.log("Em string:", idadeEmStringConversao);
 >>>>>>> 164a0c98283c961b390cbb37e832e41acdcc7b79
 =======
 >>>>>>> 97e663dd978ecbd2d5a9047c07ceb6fdc6737880
+=======
+console.log("Novo de idade. Sou bre
+>>>>>>> 289f80b72c3a9a347f33cd5c5a59ccabaad7cb86
 // Exercícios de interpretação de código
 
 // Exercício 1 : Vai aparecer no console ( 10 e 5 )
@@ -131,6 +139,7 @@ console.log("O primeiro número multiplicado pelo segundo número resulta em:",m
 
 
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,3 +148,5 @@ console.log("O primeiro número multiplicado pelo segundo número resulta em:",m
 >>>>>>> 164a0c98283c961b390cbb37e832e41acdcc7b79
 =======
 >>>>>>> 97e663dd978ecbd2d5a9047c07ceb6fdc6737880
+=======
+>>>>>>> 289f80b72c3a9a347f33cd5c5a59ccabaad7cb86
