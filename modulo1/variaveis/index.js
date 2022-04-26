@@ -1,5 +1,4 @@
 
-
 // imprimindo no console
 console.log("Olá mundo!")
 console.log("Olá Turma Jemison!")
@@ -14,8 +13,10 @@ console.log(anoDeNascimento);
 let idadeEmString = "Vinte e cinco";
 console.log(idadeEmString);
 
-console.log("Tenho", idadeEmString, "anos de idade. Nasci em", anoDeNascimento, "sadlkjslkdjsdkljkl");
+
+
 console.log("Novo de idade. Sou bre
+
 // Exercícios de interpretação de código
 
 // Exercício 1 : Vai aparecer no console ( 10 e 5 )
@@ -88,6 +89,7 @@ console.log(multi)
 
 console.log("O primeiro número somado ao segundo número resulta em:",soma)
 console.log("O primeiro número multiplicado pelo segundo número resulta em:",multi)
+
 
 
 
