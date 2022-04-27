@@ -133,3 +133,6 @@ return soma
 console.log("soma", adicao(usuario,usuario2),"subtracao:", subtra(usuario,usuario2), "divisao", divi(usuario,usuario2), "multiplicacao", multi(usuario,usuario2))
 
 
+
+
+
