@@ -15,7 +15,52 @@ console.log(idadeEmString);
 
 
 
+console.log("Tenho", idadeEmString, "anos de idade. Nasci em", anoDeNascimento, "sadlkjslkdjsdkljkl");
+
+console.log("Novo parágrafo");
+
+// Exercício 1
+let primeiroNome = "Jefferson";
+const sobrenome = "Vieira";
+let idadeDoJefferson = 27;
+let eEstudante = true;
+
+console.log("Meu nome é", primeiroNome, sobrenome, "e tenho", idadeDoJefferson, "anos de idade. Sou estudante?", eEstudante, ".");
+
+// mostrando o typeof
+console.log(typeof eEstudante);
+console.log(typeof sobrenome);
+
+// Exercício 2
+const nome = prompt("Qual é o seu nome?");
+let idade = prompt("Informe a sua idade:");
+
+console.log("O tipo de nome é", typeof nome);
+console.log("O tipo de idade é", idade);
+
+// conversão de tipo
+const idadeEmNumeros = 23;
+const idadeEmStringConversao = idadeEmNumeros.toString();
+console.log("Em numero: ", idadeEmNumeros);
+console.log("Em string:", idadeEmStringConversao);
+
+
+
+
+
 console.log("Novo de idade. Sou bre
+
+
+
+
+console.log("Novo de idade. Sou bre
+
+
+
+
+
+console.log("Novo de idade. Sou bre
+
 
 // Exercícios de interpretação de código
 
@@ -89,7 +134,6 @@ console.log(multi)
 
 console.log("O primeiro número somado ao segundo número resulta em:",soma)
 console.log("O primeiro número multiplicado pelo segundo número resulta em:",multi)
-
 
 
 
