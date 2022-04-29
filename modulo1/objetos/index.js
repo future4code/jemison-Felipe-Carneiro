@@ -79,56 +79,56 @@
 //a) Crie um objeto. Ele deve conter duas propriedades: nome (string) e apelidos (um array que sempre terá exatamente **três apelidos**). Depois, escreva uma função que recebe como entrada um objeto e imprime uma mensagem no modelo abaixo**:**
 
 
-const pessoa = {
-nome: "Felipe",
-apelidos: ["Lipe" , "ribeiro","Lipão"],
-}
+//const pessoa = {
+//nome: "Felipe",
+//apelidos: ["Lipe" , "ribeiro","Lipão"],
+//}
 
-function chamarFrase(pessoa){
+//function chamarFrase(pessoa){
 
-console.log(`Eu sou ${pessoa.nome}, mas pode me chamar de: ${pessoa.apelidos}`)
+//console.log(`Eu sou ${pessoa.nome}, mas pode me chamar de: ${pessoa.apelidos}`)
 
-}
+//}
 
 
-chamarFrase(pessoa)
+//chamarFrase(pessoa)
 
 
 //b) Agora, usando o operador spread, crie um novo objeto mantendo o valor da propriedade nome, mas com uma nova lista de três apelidos. Depois, chame a função feita no item anterior passando como argumento o novo objeto
-const pessoaDois = {
-    ...pessoa,
-    apelidos: ["lipezito", "lipezin", "lipesco"],
+//const pessoaDois = {
+  //  ...pessoa,
+  //  apelidos: ["lipezito", "lipezin", "lipesco"],
   
-}
+//}
 
-chamarFrase(pessoaDois)
+//chamarFrase(pessoaDois)
 
 
 //2. Resolva os passos a seguir: 
     
 //a) Crie dois objetos diferentes com as seguintes propriedades: nome, idade e profissão. 
-    let lista ={
-nome: "felipe",
-idade: 35,
-profissao: "programador"
-    }
+  //  let lista ={
+//nome: "felipe",
+//idade: 35,
+//profissao: "programador"
+   // }
 
-    let listaDois ={
-nome: "fabio",
-idade: 39,
-profissao: "CFTV"
+    //let listaDois ={
+//nome: "fabio",
+//idade: 39,
+//profissao: "CFTV"
 
 
-    }
+    //}
 //b) Escreva uma função que receba esses objetos e retorne um array com as seguintes informações:
 
-function irmaosLista (listatres){
-let array = [listatres.nome, listatres.nome.length, listatres.idade, listatres.profissao, listatres.profissao.length]
-    return console.log(array)
-}
+//function irmaosLista (listatres){
+//let array = [listatres.nome, listatres.nome.length, listatres.idade, listatres.profissao, listatres.profissao.length]
+//    return console.log(array)
+//}
 
-irmaosLista(lista)
-irmaosLista(listaDois)
+//irmaosLista(lista)
+//irmaosLista(listaDois)
 
 
 //3. Resolva os passos a seguir: 
@@ -143,34 +143,44 @@ irmaosLista(listaDois)
 
 
 
-let carrinho = []
+//let carrinho = []
 
-let frutaUm = {
+//let frutaUm = {
 
-    nome: "banana",
-    disponibilidade: true
+    //nome: "banana",
+    //disponibilidade: true
+//}
+
+//let frutaDois = {
+
+ //   nome: "manga",
+ //   disponibilidade: true
+//}
+
+//let frutaTres = {
+
+  //  nome: "morango",
+  //  disponibilidade: true
+//}
+
+//function listaFruta (fruta){
+
+   // carrinho.push(fruta)
+   // return carrinho
+//}
+
+//listaFruta(frutaUm)
+//listaFruta(frutaDois)
+//listaFruta(frutaTres)
+
+//console.log(carrinho)
+
+let nome = "hareane";
+
+
+
+if(nome == "felipe") {console.log("Bem vindo, felipe");
 }
 
-let frutaDois = {
-
-    nome: "manga",
-    disponibilidade: true
+else if(nome == "hareane") {console.log("Bem vinda, hareane");
 }
-
-let frutaTres = {
-
-    nome: "morango",
-    disponibilidade: true
-}
-
-function listaFruta (fruta){
-
-    carrinho.push(fruta)
-    return carrinho
-}
-
-listaFruta(frutaUm)
-listaFruta(frutaDois)
-listaFruta(frutaTres)
-
-console.log(carrinho)
