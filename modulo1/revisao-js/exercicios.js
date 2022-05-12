@@ -53,34 +53,56 @@ return maximo
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
-
-
+let maiorNumero = Math.max(num1, num2)
+let menorNumero = Math.min(num1, num2)
+let maiorDivisivelPorMenor = ((maiorNumero % menorNumero) == 0 )
+let diferenca = maiorNumero - menorNumero
+return {
+  maiorNumero,
+  maiorDivisivelPorMenor,
+  diferenca
+}
 }
 
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
-   
+  let numerosPares = [];
+  for (let i = 0; numerosPares.length < n; i++) {
+      if (i % 2 == 0) {
+          numerosPares.push(i);
+      }
+  }
+  return numerosPares;
 }
+
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
 
+  if(ladoA !== ladoB && ladoA !== ladoC && ladoB !== ladoC){
+    return "Escaleno"
+  } else if(ladoA === ladoB && ladoB === ladoC){
+    return "Equilátero"
+  } else 
+  return "Isósceles"
 }
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
   
 }
-
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   
+return `Venha assistir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores[0]}, ${filme.atores[1]}, ${filme.atores[2]}, ${filme.atores[3]}.`
 }
+
+ 
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
-   
+ let array = {...pessoa, nome:"ANÔNIMO"}
+ return array
 }
 
 // EXERCÍCIO 13A
@@ -92,7 +114,7 @@ function retornaPessoasAutorizadas(pessoas) {
 
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
-  
+ 
 }
 
 // EXERCÍCIO 14
