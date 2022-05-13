@@ -90,6 +90,8 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
+  array.sort((a, b) => a - b )
+  return [array[array.length-2], array[1]]
   
 }
 // EXERCÍCIO 11
@@ -114,12 +116,27 @@ function retornaPessoasAutorizadas(pessoas) {
 
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
- 
+  return pessoas.filter((item) => {
+    return (item.idade <= 14 || item.idade > 60 || item.altura < 1.5 )
+  })
 }
 
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
-
+for(let i = 0; i < contas.length; i ++){
+  let entradas = [];
+  calculaSaldo(contas);
+  function calculaSaldo(utilizador){
+    utilizador[i].compras.forEach(nr => entradas.push(nr * -1));
+    console.log(entradas);
+  }
+  function somaNumeros(numeros){
+    return numeros.reduce((sum, nr) => sum + nr, 0);
+  }
+  contas[i].compras = []
+  contas[i].saldoTotal += somaNumeros(entradas)
+}
+return contas
 }
 
 // EXERCÍCIO 15A
@@ -135,6 +152,8 @@ return consultas
 
 // EXERCÍCIO 15B
 function retornaArrayOrdenadoPorData(consultas) {
+ 
 
-
-}
+  
+ 
+  }
