@@ -1,0 +1,9 @@
+Resumo Resolvendo Poblemas :
+
+Primeiramente será preciso sempre ler os enunciados para que possa ser identificado as informações mais relevantes do que se pede e guardar cada uma delas.
+segundo passo a ser dado para construção do código e separar nomes das variáveis , palavras chaves e se vai ser preciso criar os nomes das funções.
+terceiro passo a ser dado é pensar nas entradas e saídas se vai ser um array, função, obejtos e etc...
+o quarto passo a ser dado é criar um esquema visual. criar exemplos de situações, criar diagramas com a lógica dos códigos, pensar no cenário geral e colocar inputs e outputs.
+quinto passo a ser dado é criar um código feio ( o código feio é o código que você vai montar com todas as informações e ver no final se o mesmo irá estar funcionando ou não corretamente independente do tamanho e sintaxes usadas).
+sexto passo a ser dado é testar o código para saber se o mesmo está funcinando corretamente com as informações lançadas ou se será necessário alguns ajustes no código dependendo do erro apresentado.
+e sétimo e ultimo passo a ser dado é a refatoração do código. Aonde você sabe que o código está rodando normalmente e funcionando, mas você pode realizar mudanças no código para melhorar a visibiliade do mesmo, diminuir o código de tamanho para uma melhor apresentação,separar as funcções de cada elemento, usar outras formas para deixar o código o mais limpo e fácil para o entendimento de outras pessoas.
