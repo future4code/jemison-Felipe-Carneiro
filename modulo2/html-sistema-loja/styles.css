@@ -1,0 +1,52 @@
+header{
+
+    background-color: chocolate;
+    font-size: large;
+}
+
+body{
+
+    background-color: coral;
+    
+    
+}
+
+img{
+
+    
+    border-radius: 100%;
+    width: 15%;
+    height: 15%;
+    
+}
+
+button{
+
+background-color: chocolate;
+}
+
+.foto{
+
+    border-radius: 0%;
+    width: 60%;
+    height: 60%;
+
+    
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+    
+    
+    
+
+   
+    
+    
