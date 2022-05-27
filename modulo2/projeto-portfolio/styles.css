@@ -1,0 +1,181 @@
+
+body{
+
+    background-color: beige;
+    
+}
+
+
+
+
+h2{
+    color: darkgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+}
+img{ 
+    border-radius: 0%;
+    max-width: 100%;
+ 
+}
+ul{
+    color: gray;
+}
+button{
+    background-color: beige;
+    color: rgb(2, 9, 31);
+   
+ 
+}
+
+.foto{
+    border-radius: 100%;
+    max-width: 15%;
+    width: 60%;
+    margin:auto ;
+   display: block;
+}
+
+
+
+.foto3{
+width: 100%;
+background-color: black;
+    
+}
+
+.black{
+    width: 100%;
+    background-color: black;
+}
+
+.java{
+    width: 100%;
+    background-color: black;
+}
+
+nav{
+     
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align:justify;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .h3{
+
+        color: grey;
+    }
+
+    .h1{
+        color: darkgrey;
+    }
+
+    .botao:hover{
+        border-radius:100px;
+        background-color: red;
+        color:black;
+        cursor: pointer;
+    }
+
+    .bt2:hover{
+        background-color: red;
+        color:black;
+        cursor: pointer;
+        border-radius:100px;
+    }
+
+    
+        
+
+
+    .a{
+        color: black;
+    }
+
+    .li{
+        color:black
+    }
+
+    .rodape{
+        background-color: rgb(17, 0, 4);
+        color: floralwhite;
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pj{
+
+        background-color: rgb(17, 0, 4);
+        color: floralwhite;
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .port{
+
+        background-color: rgb(17, 0, 4);
+        color: floralwhite;
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pl{
+
+        background-color: rgb(17, 0, 4);
+        color: floralwhite;
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contatos{
+
+        background-color: rgb(17, 0, 4);
+        color: floralwhite;
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name{
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color:black
+    }
+
+    .hab{
+        color:black
+    }
+
+    
+
+   
