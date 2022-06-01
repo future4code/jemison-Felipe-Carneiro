@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    background: mediumvioletred;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav{
+    display: table;
+    background: #f2d0e0;
+    width: 250px;
+    height: 500px;
+   
+}
+
+.imagem-bolo{
+    width: 125px;
+    height: 125px;
+}
+
+.bolo{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+   
+   
+}
+.home{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.produtos{
+    width: 20px;
+    height: 20px;
+}
+
+.seta{
+    width: 20px;
+    height: 20px;
+}
+
+.carrinho{
+    width: 20px;
+    height: 20px;
+}
+
+.perfil{
+    width: 20px;
+    height: 20px;
+}
+.rodape{
+    padding: 10px;
+    background: mediumvioletred;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#icone-vela{
+    width: 20px;
+    height: 20px;
+}
