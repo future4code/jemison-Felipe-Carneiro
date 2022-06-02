@@ -1,75 +1,91 @@
 *{
+
     padding: 0%;
     margin: 0%;
-
 }
 
-header{
-    padding: 10px;
-    display: flex;
+.cabecalho{
     background: mediumvioletred;
-    align-items: center;
+    display: flex;
     justify-content: space-between;
-
-}
-
-nav{
-    display: table;
-    background: #f2d0e0;
-    width: 250px;
-    height: 500px;
-   
-}
-
-.imagem-bolo{
-    width: 125px;
-    height: 125px;
+    height: 20px;
+    padding: 22px;
+    
 }
 
 .bolo{
 
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-   
-   
-}
-.home{
-    width: 20px;
     height: 20px;
+    width: 20px;
+}
+
+
+.container{
+
+display: flex;
+height: 800px;
+
+}
+
+.filho1{
+    background: #f2d0e0;
+    width: 20%;
     
 }
 
-.produtos{
-    width: 20px;
+.img{
     height: 20px;
+    width: 20px;
+
+}
+
+.filho2{
+    background: #f2d0e0;
+    width: 5%;
 }
 
 .seta{
-    width: 20px;
+
     height: 20px;
+    width: 20px;
 }
 
-.carrinho{
-    width: 20px;
-    height: 20px;
-}
-
-.perfil{
-    width: 20px;
-    height: 20px;
-}
-.rodape{
-    padding: 10px;
-    background: mediumvioletred;
+.filho3{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap:wrap;
     
+
+
 }
 
-#icone-vela{
-    width: 20px;
-    height: 20px;
+.bolo2{
+
+    height: 220px;
+   
+    
+
 }
+
+.card{
+    margin: 10px auto;
+    border: 1px solid darkgray;
+    text-shadow: darkgray;
+    text-align: center;
+    padding: 10px;
+    height: 300px;
+    width: 250px;
+}
+
+.p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.rodape{
+    background: mediumvioletred;
+    text-align: center;
+    height: 20px;
+    padding: 22px;
+
+}
+
