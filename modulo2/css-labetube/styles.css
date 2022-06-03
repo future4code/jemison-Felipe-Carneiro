@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    background-color: orange;
+    padding: 15px 25px;
+}
+
+.titulo{
+
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+}
+.botao-busca{
+   width: 70px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin: 20px;
+}
+
+.card{
+
+    border: 2px solid rgb(81, 116, 32);
+}
+
+.img{
+    width: 100%;
+    height: 80%;
+}
+
+footer{
+    background-color: orange;
+    text-align: center;
+    padding: 15px 25px;
+    
+   
+}
+
+.videos{
+   
+    height: 550px;
+    box-shadow: 5px 10px 8px grey;
+    
+}
+
+.alinhandoVideo{
+
+   
+   margin: 50px 170px;
+}
+
+.nome{
+
+    display: flex;
+    align-items:center ;
+   
+}
