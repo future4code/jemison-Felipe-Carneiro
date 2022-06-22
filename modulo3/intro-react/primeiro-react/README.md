@@ -1,4 +1,4 @@
 # link Surge:
-workable-book.surge.sh
+open-duck.surge.sh
 
 # link da PR
